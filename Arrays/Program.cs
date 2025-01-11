@@ -6,6 +6,9 @@
         {
             TwoSum twoSum = new TwoSum();
             twoSum.Calculate();
+
+            ThreeSum threeSum = new ThreeSum();
+            threeSum.Calculate();
         }
     }
 }
