@@ -9,6 +9,9 @@
 
             ThreeSum threeSum = new ThreeSum();
             threeSum.Calculate();
+
+            SmallestNumberProductVariation1 smallestNumberProductVariation1 = new SmallestNumberProductVariation1();
+            smallestNumberProductVariation1.Calculate();
         }
     }
 }
