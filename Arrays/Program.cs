@@ -15,6 +15,10 @@
 
             MajorityElement majorityElement = new MajorityElement();
             Console.WriteLine($"Majority element: {majorityElement.Find()}");
+
+            RotateMatrixNintyDeg rotateMatrixNintyDeg = new RotateMatrixNintyDeg();
+            int[,] rotatedMatrix = rotateMatrixNintyDeg.RotateByNintyDeg();
+            rotateMatrixNintyDeg.PrintMatrix(rotatedMatrix);
         }
     }
 }
