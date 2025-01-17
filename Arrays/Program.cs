@@ -19,6 +19,10 @@
             RotateMatrixNintyDeg rotateMatrixNintyDeg = new RotateMatrixNintyDeg();
             int[,] rotatedMatrix = rotateMatrixNintyDeg.RotateByNintyDeg();
             rotateMatrixNintyDeg.PrintMatrix(rotatedMatrix);
+
+            SpiralMatrix sp = new SpiralMatrix();
+            List<int> items = sp.Generate();
+            sp.PrintMatrix(items);
         }
     }
 }
